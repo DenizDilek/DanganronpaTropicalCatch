@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &956203844592153054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956203844592153048}
+  - component: {fileID: 956203844592153055}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &956203844592153048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956203844592153054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.326927, y: 261.40494, z: -266.70734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &956203844592153055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956203844592153054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160fa47abd376fe418e0e3867de5f3b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ButtonHover
+    clip: {fileID: 8300000, guid: ba1972fe563c7c24a9e165503b1affb9, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonPressed
+    clip: {fileID: 8300000, guid: 3f507ea9467caa844b67c0d399cea05b, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: MainScreen
+    clip: {fileID: 8300000, guid: d93b0f273f7227d4f81362695f0de722, type: 3}
+    volume: 0.299
+    pitch: 0.98
+    loop: 1
+    source: {fileID: 0}
+  - name: CaptureGood
+    clip: {fileID: 8300000, guid: 8df88351770b0444cbbc720ef0b8360a, type: 3}
+    volume: 0.115
+    pitch: 0.98
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 0d1d7803b73dc8e45ba8b4f60308d6a7, type: 3}
+    volume: 0.471
+    pitch: 1.06
+    loop: 1
+    source: {fileID: 0}
+  - name: EndGame
+    clip: {fileID: 8300000, guid: 0d1d7803b73dc8e45ba8b4f60308d6a7, type: 3}
+    volume: 0.515
+    pitch: 0.44
+    loop: 1
+    source: {fileID: 0}
